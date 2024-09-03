@@ -41,7 +41,6 @@ all: $(TARGET)
 # Clean the output directory
 clean:
 	rm -rf $(OBJ_DIR)
-	rm -rf $(VERILOG_TB_FOLDER)/$(VERILOG_MAIN_TB);
 	rm -f compile_commands.json
 	rm -f *.vcd
 
